@@ -6,9 +6,12 @@
 
 #include "stdio.h"
 
-int main() {
+int main() 
+{
     printf("karakter tunggal = %c\n", 'B');
     printf("escape karakter %c\n baris baru\n", '\n');
     printf("tabulation = tab%ctab\n", '\t');
     printf("ascii = %c\n", '\x41');
+    printf("%d\n", 100);
+    return 0;
 }
